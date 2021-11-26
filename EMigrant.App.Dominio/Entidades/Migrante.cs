@@ -3,8 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EMigrant.App.Dominio
 {
+    
     public class Migrante
     {
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "El Nombre es Obligatorio"), StringLength(15)]
         public string Nombres { get; set;}

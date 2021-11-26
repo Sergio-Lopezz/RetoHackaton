@@ -38,6 +38,7 @@ S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Front
 S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.pdb
 S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.genruntimeconfig.cache
 S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\bin\Debug\net5.0\appsettings.json
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\bin\Debug\net5.0\EMigrant.App.Frontend.exe
@@ -78,3 +79,39 @@ C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\n
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.pdb
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.genruntimeconfig.cache
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.csproj.CopyComplete
+=======
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Humanizer.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\Newtonsoft.Json.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\System.Runtime.Caching.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\EMigrant.App.Dominio.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\EMigrant.App.Persistencia.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\EMigrant.App.Dominio.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Frontend\bin\Debug\net5.0\EMigrant.App.Persistencia.pdb
+>>>>>>> 7bcf5e77cfdd7ae630be620a139194a018d13228

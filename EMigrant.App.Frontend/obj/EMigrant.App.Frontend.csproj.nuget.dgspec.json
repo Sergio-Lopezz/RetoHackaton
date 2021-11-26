@@ -4,17 +4,20 @@
     "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj": {
+=======
+    "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
-        "projectName": "EMigrant.App.Frontend",
-        "projectPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\edwpa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\obj\\",
+        "projectUniqueName": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "projectName": "EMigrant.App.Dominio",
+        "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\edwpa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -48,9 +51,169 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj": {
+>>>>>>> 7bcf5e77cfdd7ae630be620a139194a018d13228
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
+        "projectName": "EMigrant.App.Frontend",
+        "projectPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\edwpa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edwpa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+                "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+              },
+              "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+                "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+        "projectName": "EMigrant.App.Persistencia",
+        "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+                "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EMigrant.App.Dominio\EMigrant.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
