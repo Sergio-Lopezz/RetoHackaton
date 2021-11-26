@@ -1,3 +1,6 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace EMigrant.App.Dominio.Entidades
 {
     public class Sector

@@ -1519,6 +1519,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "EMigrant.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EMigrant.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EMigrant.App.Dominio.dll": {}
+        }
       }
     }
   },
@@ -5787,10 +5797,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "EMigrant.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../EMigrant.App.Dominio/EMigrant.App.Dominio.csproj",
+      "msbuildProject": "../EMigrant.App.Dominio/EMigrant.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EMigrant.App.Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
@@ -5821,7 +5837,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+              "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

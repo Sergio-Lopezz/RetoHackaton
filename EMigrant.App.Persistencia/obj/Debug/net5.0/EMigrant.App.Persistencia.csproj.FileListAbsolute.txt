@@ -13,3 +13,6 @@ S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persi
 S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\net5.0\ref\EMigrant.App.Persistencia.dll
 S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\net5.0\EMigrant.App.Persistencia.pdb
 S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\net5.0\EMigrant.App.Persistencia.genruntimeconfig.cache
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\net5.0\EMigrant.App.Dominio.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\net5.0\EMigrant.App.Dominio.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\net5.0\EMigrant.App.Persistencia.csproj.CopyComplete
