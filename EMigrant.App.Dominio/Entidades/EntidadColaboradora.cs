@@ -24,7 +24,7 @@ namespace EMigrant.App.Dominio
 
         public string Sector { get; set; }
 
-        public string TipoServicio TipoServicio{ get; set; }
+        public TipoServicio TipoServicio{ get; set; }
 
     }
 }
