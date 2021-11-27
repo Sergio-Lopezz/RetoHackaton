@@ -1,0 +1,12 @@
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\bin\Debug\net5.0\EMigrant.App.Dominio.deps.json
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\bin\Debug\net5.0\EMigrant.App.Dominio.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\bin\Debug\net5.0\ref\EMigrant.App.Dominio.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\bin\Debug\net5.0\EMigrant.App.Dominio.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.AssemblyInfoInputs.cache
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.AssemblyInfo.cs
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.csproj.CoreCompileInputs.cache
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\ref\EMigrant.App.Dominio.dll
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.pdb
+S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.csproj.AssemblyReference.cache
