@@ -5835,19 +5835,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\edwpa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
       "projectName": "EMigrant.App.Frontend",
-      "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\edwpa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\edwpa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5859,11 +5859,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
-              "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+            "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
             },
-            "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
-              "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
+            "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\edwpa\\Documents\\Hackaton\\RetoHackaton\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
             }
           }
         }

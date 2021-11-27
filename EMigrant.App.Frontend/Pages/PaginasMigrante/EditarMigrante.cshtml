@@ -1,0 +1,83 @@
+@page
+@model EMigrant.App.Frontend.Pages.PaginasMigrante.EditarMigranteModel
+@using EMigrant.App.Dominio
+@{
+}
+
+<h1 class="titles-nutricion mb-4">Editar Migrante</h1>
+
+<h3 class="mb-3 mt-4">ID Migrante: @Model.Migrante.Id</h3>
+
+<form method="POST">
+    <input type="hidden" asp-for="Migrante.Id">
+    <div>
+        <label asp-for="Migrante.Nombres" class="form-label">Nombres:</label>
+        <input type="text" asp-for="Migrante.Nombres" class="form-control" placeholder="Ingresa Nombres" />
+        <span class="text-danger" asp-validation-for="Migrante.Nombres"></span>
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.Apellidos" class="form-label">Apellidos:</label>
+        <input type="text" asp-for="Migrante.Apellidos" class="form-control" placeholder="Ingresa Apellidos" />
+        <span class="text-danger" asp-validation-for="Migrante.Apellidos"></span>
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.TipoDocumento">Tipo de Documento:</label>
+        <select asp-for="Migrante.TipoDocumento" asp-items="Html.GetEnumSelectList<TipoDocumento>()" class="form-select"
+            aria-label=".form-select-lg example"></select>
+            <span class="text-danger" asp-validation-for="Migrante.TipoDocumento"></span>
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.NDocumento" class="form-label">No° Documento:</label>
+        <input type="text" asp-for="Migrante.NDocumento" class="form-control" placeholder="Ingresa No° Documento" />
+        <span class="text-danger" asp-validation-for="Migrante.NDocumento"></span>
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.PaisOrigen" class="form-label">Pais de Origen:</label>
+        <input type="text" asp-for="Migrante.PaisOrigen" class="form-control" placeholder="Ingresa Pais de Origen" />
+        <span class="text-danger" asp-validation-for="Migrante.PaisOrigen"></span>
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.FechaNacimiento" class="form-label">Fecha de Nacimiento:</label>
+        <input type="date" asp-for="Migrante.FechaNacimiento" class="form-control"
+            placeholder="Ingresa Fecha de Nacimiento" />
+            <span class="text-danger" asp-validation-for="Migrante.FechaNacimiento"></span>
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.Telefono" class="form-label">Telefono:</label>
+        <input type="text" asp-for="Migrante.Telefono" class="form-control" placeholder="Ingresa No° Telefono" />
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.Correo" class="form-label">Correo:</label>
+        <input type="email" asp-for="Migrante.Correo" class="form-control" placeholder="Ingresa Correo" />
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.DireccionActual" class="form-label">Direccion Actual:</label>
+        <input type="text" asp-for="Migrante.DireccionActual" class="form-control"
+            placeholder="Ingresa Direccion actual" />
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.Ciudad" class="form-label">Ciudad:</label>
+        <input type="text" asp-for="Migrante.Ciudad" class="form-control" placeholder="Ingresa Ciudad" />
+    </div><br>
+
+    <div>
+        <label asp-for="Migrante.SituacionLaboral" class="form-label">Situacion Laboral:</label>
+        <select asp-for="Migrante.SituacionLaboral" asp-items="Html.GetEnumSelectList<TipoLaboral>()"
+            class="form-select" aria-label=".form-select-lg example"></select>
+    </div><br>
+    <button type="submit" class="btn btn-primary ml-3">Editar Migrante</button>
+</form>
+
+@section Scripts
+{
+<partial name="_ValidationScriptsPartial" />
+}

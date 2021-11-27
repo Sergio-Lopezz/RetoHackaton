@@ -1,0 +1,12 @@
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\bin\Debug\net5.0\EMigrant.App.Dominio.deps.json
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\bin\Debug\net5.0\EMigrant.App.Dominio.dll
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\bin\Debug\net5.0\ref\EMigrant.App.Dominio.dll
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\bin\Debug\net5.0\EMigrant.App.Dominio.pdb
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.AssemblyInfo.cs
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.dll
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\ref\EMigrant.App.Dominio.dll
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Dominio\obj\Debug\net5.0\EMigrant.App.Dominio.pdb
