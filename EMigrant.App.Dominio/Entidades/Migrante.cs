@@ -23,8 +23,11 @@ namespace EMigrant.App.Dominio
         [Required(ErrorMessage = "El Pais de origen es Obligatorio"), StringLength(15)]
         public string PaisOrigen { get; set;}
 
-        [Required(ErrorMessage = "La Fecha de Nacimiento es Obligatoria"), StringLength(15)]
+        [DataType(DataType.Date)]
+        [Display(Name = "Fecha De Nacimiento")]
+        [Required(ErrorMessage="Fecha de Nacimiento Obligatoria")]
         public string FechaNacimiento { get; set;}
+
         public string Telefono { get; set;}
         public string Correo { get; set;}
         public string DireccionActual { get; set;}

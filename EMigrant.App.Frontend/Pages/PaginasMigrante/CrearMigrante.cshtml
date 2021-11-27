@@ -9,56 +9,71 @@
     <div>
         <label asp-for="migrante.Nombres" class="form-label">Nombres:</label>
         <input type="text" asp-for="migrante.Nombres" class="form-control" placeholder="Ingresa Nombres" />
+        <span class="text-danger" asp-validation-for="migrante.Nombres"></span>
     </div><br>
 
     <div>
         <label asp-for="migrante.Apellidos" class="form-label">Apellidos:</label>
         <input type="text" asp-for="migrante.Apellidos" class="form-control" placeholder="Ingresa Apellidos" />
+        <span class="text-danger" asp-validation-for="migrante.Apellidos"></span>
     </div><br>
 
     <div>
-        <label asp-for="migrante.TipoDocumento" >Tipo de Documento:</label>
-        <select asp-for="migrante.TipoDocumento" asp-items="Html.GetEnumSelectList<TipoServicio>()" class="form-select" aria-label=".form-select-lg example"></select>
+        <label asp-for="migrante.TipoDocumento">Tipo de Documento:</label>
+        <select asp-for="migrante.TipoDocumento" asp-items="Html.GetEnumSelectList<TipoDocumento>()" class="form-select"
+            aria-label=".form-select-lg example"></select>
+            <span class="text-danger" asp-validation-for="migrante.TipoDocumento"></span>
     </div><br>
 
     <div>
         <label asp-for="migrante.NDocumento" class="form-label">No° Documento:</label>
-        <input type="text" asp-for="migrante.NDocumento" class="form-control" placeholder="Ingresa No° Documento"/>
+        <input type="text" asp-for="migrante.NDocumento" class="form-control" placeholder="Ingresa No° Documento" />
+        <span class="text-danger" asp-validation-for="migrante.NDocumento"></span>
     </div><br>
 
     <div>
         <label asp-for="migrante.PaisOrigen" class="form-label">Pais de Origen:</label>
-        <input type="text" asp-for="migrante.PaisOrigen" class="form-control" placeholder="Ingresa Pais de Origen"/>
+        <input type="text" asp-for="migrante.PaisOrigen" class="form-control" placeholder="Ingresa Pais de Origen" />
+        <span class="text-danger" asp-validation-for="migrante.PaisOrigen"></span>
     </div><br>
 
     <div>
         <label asp-for="migrante.FechaNacimiento" class="form-label">Fecha de Nacimiento:</label>
-        <input type="text" asp-for="migrante.FechaNacimiento" class="form-control" placeholder="Ingresa Fecha de Nacimiento"/>
+        <input type="date" asp-for="migrante.FechaNacimiento" class="form-control"
+            placeholder="Ingresa Fecha de Nacimiento" />
+            <span class="text-danger" asp-validation-for="migrante.FechaNacimiento"></span>
     </div><br>
 
     <div>
         <label asp-for="migrante.Telefono" class="form-label">Telefono:</label>
-        <input type="text" asp-for="migrante.Telefono" class="form-control" placeholder="Ingresa No° Telefono"/>
+        <input type="text" asp-for="migrante.Telefono" class="form-control" placeholder="Ingresa No° Telefono" />
     </div><br>
 
-     <div>
+    <div>
         <label asp-for="migrante.Correo" class="form-label">Correo:</label>
-        <input type="text" asp-for="migrante.Correo" class="form-control" placeholder="Ingresa Correo"/>
+        <input type="email" asp-for="migrante.Correo" class="form-control" placeholder="Ingresa Correo" />
     </div><br>
 
     <div>
         <label asp-for="migrante.DireccionActual" class="form-label">Direccion Actual:</label>
-        <input type="text" asp-for="migrante.DireccionActual" class="form-control" placeholder="Ingresa Direccion actual"/>
+        <input type="text" asp-for="migrante.DireccionActual" class="form-control"
+            placeholder="Ingresa Direccion actual" />
     </div><br>
 
     <div>
         <label asp-for="migrante.Ciudad" class="form-label">Ciudad:</label>
-        <input type="text" asp-for="migrante.Ciudad" class="form-control" placeholder="Ingresa Ciudad"/>
+        <input type="text" asp-for="migrante.Ciudad" class="form-control" placeholder="Ingresa Ciudad" />
     </div><br>
 
     <div>
         <label asp-for="migrante.SituacionLaboral" class="form-label">Situacion Laboral:</label>
-        <select asp-for="migrante.SituacionLaboral" asp-items="Html.GetEnumSelectList<TipoServicio>()" class="form-select" aria-label=".form-select-lg example"></select>
+        <select asp-for="migrante.SituacionLaboral" asp-items="Html.GetEnumSelectList<TipoLaboral>()"
+            class="form-select" aria-label=".form-select-lg example"></select>
     </div><br>
     <button type="submit" class="btn btn-primary ml-3">Crear Migrante</button>
 </form>
+
+@section Scripts
+{
+<partial name="_ValidationScriptsPartial" />
+}
