@@ -5737,11 +5737,25 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD:EMigrant.App.Frontend/obj/project.assets.json
+    "C:\\Users\\morah\\.nuget\\packages\\": {}
+=======
     "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+>>>>>>> be8ecca4b9f73ef6518dd46224e2a0952a446594:EMigrant.App.Consola/obj/project.assets.json
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD:EMigrant.App.Frontend/obj/project.assets.json
+      "projectUniqueName": "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
+      "projectName": "EMigrant.App.Frontend",
+      "projectPath": "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Frontend\\EMigrant.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\morah\\.nuget\\packages\\",
+      "outputPath": "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Frontend\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\morah\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
       "projectUniqueName": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Consola\\EMigrant.App.Consola.csproj",
       "projectName": "EMigrant.App.Consola",
       "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Consola\\EMigrant.App.Consola.csproj",
@@ -5750,6 +5764,7 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> be8ecca4b9f73ef6518dd46224e2a0952a446594:EMigrant.App.Consola/obj/project.assets.json
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5761,11 +5776,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
-              "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+            "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+              "projectPath": "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
             },
-            "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
-              "projectPath": "S:\\Mision Tic\\Ciclo#4\\Hackaton\\E-Migrant-PRUEBAS\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
+            "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+              "projectPath": "D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
             }
           }
         }
@@ -5797,5 +5812,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\technosolutions\\DEV\\RetoHackaton\\EMigrant.App.Frontend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
