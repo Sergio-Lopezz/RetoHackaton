@@ -25,7 +25,6 @@ namespace EMigrant.App.Dominio
 
         [Required(ErrorMessage = "La Fecha de Nacimiento es Obligatoria"), StringLength(15)]
         public string FechaNacimiento { get; set;}
-        
         public string Telefono { get; set;}
         public string Correo { get; set;}
         public string DireccionActual { get; set;}

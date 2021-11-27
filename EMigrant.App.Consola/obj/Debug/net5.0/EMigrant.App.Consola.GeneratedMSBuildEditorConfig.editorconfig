@@ -1,0 +1,15 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+<<<<<<< HEAD:EMigrant.App.Frontend/obj/Debug/net5.0/EMigrant.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+build_property.RootNamespace = EMigrant.App.Frontend
+build_property.ProjectDir = D:\technosolutions\DEV\RetoHackaton\EMigrant.App.Frontend\
+=======
+build_property.RootNamespace = EMigrant.App.Consola
+build_property.ProjectDir = S:\Mision Tic\Ciclo#4\Hackaton\E-Migrant-PRUEBAS\EMigrant.App\EMigrant.App.Consola\
+>>>>>>> be8ecca4b9f73ef6518dd46224e2a0952a446594:EMigrant.App.Consola/obj/Debug/net5.0/EMigrant.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
