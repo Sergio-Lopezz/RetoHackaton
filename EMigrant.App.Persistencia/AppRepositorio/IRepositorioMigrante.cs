@@ -8,7 +8,7 @@ namespace EMigrant.App.Persistencia
     {
         Migrante AddMigrante(Migrante migrante);
         Migrante UpdateMigrante(Migrante migrante);
-        Migrante GetMigrante(int idMigrante);
+        Migrante GetMigrante(string idMigrante);
          
     }
 }

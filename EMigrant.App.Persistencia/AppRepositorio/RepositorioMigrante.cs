@@ -37,9 +37,9 @@ namespace EMigrant.App.Persistencia
             return _appContext.Migrantes;
         }
 
-        public Migrante GetMigrante(int idMigrante)
+        public Migrante GetMigrante(string idMigrante)
         {
-            var migranteEncontrado = _appContext.Migrantes.FirstOrDefault(p => p.Id == idMigrante);
+            var migranteEncontrado = _appContext.Migrantes.FirstOrDefault(p => p.NDocumento == idMigrante);
             return migranteEncontrado;
         }
 

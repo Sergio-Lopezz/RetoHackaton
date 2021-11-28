@@ -24,7 +24,7 @@ namespace EMigrant.App.Dominio
         public string PaisOrigen { get; set;}
 
         [DataType(DataType.Date)]
-        [Display(Name = "Fecha De Nacimiento")]
+        [Display(Name = "La Fecha esta incorrecta")]
         [Required(ErrorMessage="Fecha de Nacimiento Obligatoria")]
         public string FechaNacimiento { get; set;}
 

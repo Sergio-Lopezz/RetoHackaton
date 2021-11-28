@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using EMigrant.App.Persistencia;
+using EMigrant.App.Dominio;
 
 namespace EMigrant.App.Frontend.Pages
 {
@@ -16,10 +18,12 @@ namespace EMigrant.App.Frontend.Pages
         {
             _logger = logger;
         }
+        
 
         public void OnGet()
         {
 
         }
+        
     }
 }

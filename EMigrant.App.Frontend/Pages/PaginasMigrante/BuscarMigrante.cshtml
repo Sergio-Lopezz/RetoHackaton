@@ -4,7 +4,7 @@
 @{
 }
 
-<h1 class="titles-nutricion mb-4">Editar Migrante</h1>
+<h1 class="titles-nutricion mb-4">Migrante: @Model.Migrante.Nombres</h1>
 
 @* <h3 class="mb-3 mt-4">ID Migrante: @Model.Migrante.Id</h3> *@
 <h3 class="mb-3 mt-4">Documento: @Model.Migrante.NDocumento</h3>
@@ -45,7 +45,7 @@
     <div>
         <label asp-for="Migrante.FechaNacimiento" class="form-label">Fecha de Nacimiento:</label>
         <input type="date" asp-for="Migrante.FechaNacimiento" class="form-control"
-            placeholder="Ingresa Fecha de Nacimiento" min="1950-01-01" max="2021-12-31"/>
+            placeholder="Ingresa Fecha de Nacimiento" />
             <span class="text-danger" asp-validation-for="Migrante.FechaNacimiento"></span>
     </div><br>
 
@@ -75,8 +75,6 @@
         <select asp-for="Migrante.SituacionLaboral" asp-items="Html.GetEnumSelectList<TipoLaboral>()"
             class="form-select" aria-label=".form-select-lg example"></select>
     </div><br>
-    <button type="submit" class="btn btn-primary ml-3">Editar Migrante</button>
-    
 </form>
 
 @section Scripts

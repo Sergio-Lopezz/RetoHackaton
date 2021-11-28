@@ -9,11 +9,11 @@ using EMigrant.App.Dominio;
 
 namespace EMigrant.App.Frontend.Pages.PaginasMigrante
 {
-    public class EditarMigranteModel : PageModel
+    public class BuscarMigranteModel : PageModel
     {
         private readonly IRepositorioMigrante _repoMigrante;
 
-        public EditarMigranteModel(IRepositorioMigrante _repoMigrante)
+        public BuscarMigranteModel(IRepositorioMigrante _repoMigrante)
         {
             this._repoMigrante=_repoMigrante;
         } 
@@ -26,27 +26,15 @@ namespace EMigrant.App.Frontend.Pages.PaginasMigrante
             Migrante =_repoMigrante.GetMigrante(migranteId.ToString());
             if (Migrante == null)
             { 
-                return RedirectToPage("./NotFound");
+                //ViewBag.Message =" no encontrado"  ; 
+                            
+                return RedirectToPage("/Index");
+                
             }
             else
             { 
                 return Page();
             }
         }
-
-        public IActionResult OnPost()
-        {
-            if(!ModelState.IsValid)
-            {
-                return Page();
-            }
-            else
-            { 
-                Migrante = _repoMigrante.UpdateMigrante(Migrante);
-            }
-            return RedirectToPage("/Index");
-            //return Page();
-        }
-        
     }
 }

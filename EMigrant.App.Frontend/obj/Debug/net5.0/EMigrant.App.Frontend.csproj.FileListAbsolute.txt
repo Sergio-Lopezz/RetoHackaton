@@ -149,3 +149,4 @@ C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\bin\Debug\n
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.Views.pdb
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.csproj.CopyComplete
 C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\EMigrant.App.Frontend.genruntimeconfig.cache
+C:\Users\edwpa\Documents\Hackaton\RetoHackaton\EMigrant.App.Frontend\obj\Debug\net5.0\Razor\Pages\PaginasMigrante\BuscarMigrante.cshtml.g.cs
