@@ -32,8 +32,8 @@ namespace EMigrant.App.Frontend.Pages.PaginasMigrante
                 return Page();
             }
             var migranteAdicionado=_repoMigrante.AddMigrante(migrante);
-            //return RedirectToPage("");
-            return Page();
+            return RedirectToPage("/Index");
+            //return Page();
         }
         
     }

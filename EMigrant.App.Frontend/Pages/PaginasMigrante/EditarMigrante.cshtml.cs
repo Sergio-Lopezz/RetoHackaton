@@ -44,8 +44,8 @@ namespace EMigrant.App.Frontend.Pages.PaginasMigrante
             { 
                 Migrante = _repoMigrante.UpdateMigrante(Migrante);
             }
-            //return RedirectToPage("../Migrante1/Migrante/");
-            return Page();
+            return RedirectToPage("/Index");
+            //return Page();
         }
         
     }
